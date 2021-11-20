@@ -7,5 +7,5 @@ This repository contains programs written for the high-level programming track a
 
 ## Author 🖋
 - **Chigozirim Igweamaka** <[iChigozirim](https://github.com/iChigozirim)>
-## Acknowledgements
+## Acknowledgements 
 All work contained in this project was completed as part of the curriculum for ALX School. ALX School is an online-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit this [link](https://alx5757.zendesk.com/hc/en-gb).
