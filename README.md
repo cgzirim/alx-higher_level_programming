@@ -6,6 +6,6 @@ This repository contains programs written for the high-level programming track a
 - [0x03. Python - Data Structures: Lists, Tuples](https://github.com/iChigozirim/alx-higher_level_programming/tree/main/0x03-python-data_structures)
 
 ## Author 🖋
-- Chigozirim Igweamaka
-## Acknowledgment
+- **Chigozirim Igweamaka** <[iChigozirim](https://github.com/iChigozirim)>
+## Acknowledgements
 All work contained in this project was completed as part of the curriculum for ALX School. ALX School is an online-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit this [link](https://alx5757.zendesk.com/hc/en-gb).
