@@ -17,8 +17,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
     if len_b == 1:
         tuple_b = tuple_b[0], 0
 
-    # Return the sum of tuples in the format (a,b)
-    a0, a1 = tuple_a
-    b0, b1 = tuple_b
-
-    return (a0 + b0, a1 + b1)
+    return (tuple_a[0] + tuple_b[0], tuple_a[1] + tuple_b[1])
