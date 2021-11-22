@@ -9,4 +9,4 @@ def print_matrix_integer(matrix=[[]]):
                 print("{}".format(item), end=" ")
             else:
                 print("{}".format(item), end="")
-        print("\n", end="")
+        print("{}".format("\n"), end="")
