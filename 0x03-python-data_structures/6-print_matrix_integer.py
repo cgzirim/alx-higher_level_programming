@@ -5,8 +5,7 @@ def print_matrix_integer(matrix=[[]]):
     """Prints a matrix of integers."""
     for row in matrix:
         for item in row:
+            print("{:d}".format(item), end="")
             if row.index(item) != (len(row) - 1):
-                print("{}".format(item), end=" ")
-            else:
-                print("{}".format(item), end="")
-        print("{}".format("\n"), end="")
+                print(" ", end="")
+        print("")
