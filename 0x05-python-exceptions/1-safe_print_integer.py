@@ -3,7 +3,9 @@
 
 def safe_print_integer(value):
     """Prints an integer with "{:d}".format().
-    value: value can be any type (integer, string, etc.)
+
+    Args:
+        value: The input can be any type (integer, string, etc.)
 
     Returns:
            True if value is an integer.
