@@ -5,7 +5,6 @@
 class Rectangle:
     """Represent a rectangle."""
 
-    # A variable counting the number of rectangles.
     number_of_instances = 0
 
     def __init__(self, width=0, height=0):
@@ -17,8 +16,8 @@ class Rectangle:
         """
         self.width = width
         self.height = height
-        Rectangle.number_of_instances += 1
         self.print_symbol = "#"
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -72,7 +71,7 @@ class Rectangle:
         rect = []
         for column in range(self.__height):
             for row in range(self.__width):
-                if isinstance(self.print_symbol, list):
+                if not isinstance(self.print_symbol, str):
                     rect.append(str(self.print_symbol))
                 else:
                     rect.append(self.print_symbol)
