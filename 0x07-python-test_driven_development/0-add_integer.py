@@ -1,12 +1,9 @@
 #!/usr/bin/python3
+"""Defines an integer addition function."""
 
 
 def add_integer(a, b=98):
     """Returns sum of two integers.
-
-    Args:
-        a (int): First number.
-        b (int): Second number.
 
     Float arguments are typecasted to ints before addition is performed.
 
