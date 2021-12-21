@@ -10,6 +10,8 @@ Usage:
 	>>> MyList = __import__('1-my_list').MyList
 
 	>>> my_list = MyList()
+
+	>>> my_list
 	[]
 
 	>>> my_list.append(1)
@@ -34,7 +36,7 @@ Usage:
 	>>> my_list.print_sorted()
 	['a', 'h', 'p', 'p', 'y']
 
-	>>> new_list = myList()
+	>>> new_list = MyList()
 
 	>>> new_list
 	[]
