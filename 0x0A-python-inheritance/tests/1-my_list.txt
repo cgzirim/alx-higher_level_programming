@@ -34,8 +34,13 @@ Usage:
 	>>> my_list
 	[3, 4, 2]
 
+        >>> my_list = MyList([3, -4, 2])
+
 	>>> my_list.print_sorted()
-	[2, 3, 4]
+	[-4, 2, 3]
+
+	>>> my_list
+	[3, -4, 2]
 
 	>>> my_list = MyList("happy")
 
@@ -49,3 +54,5 @@ Usage:
 
 	>>> new_list
 	[]
+
+
