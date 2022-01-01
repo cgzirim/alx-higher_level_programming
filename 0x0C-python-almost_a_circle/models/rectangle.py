@@ -101,6 +101,7 @@ class Rectangle(Base):
             print("")
 
     def __str__(self):
+        """Returns the print() and str() representation of the Rectangle."""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
                 self.__x, self.__y,
                 self.__width, self.__height)
@@ -115,6 +116,7 @@ class Rectangle(Base):
                 - 3rd argument should be the height attribute
                 - 4th argument should be the x attribute
                 - 5th argument should be the y attribute
+            **kwargs (dict): New key/value pairs of attributes.
         """
         if len(args) > 0:
             attrs = ['id', 'width', 'height', 'x', 'y']
