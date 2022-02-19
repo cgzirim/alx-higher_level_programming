@@ -12,5 +12,5 @@ I also learnt about `JSON` and how to serialize and deserialize `JSON` files in 
   - [1-write_file.py](https://github.com/iChigozirim/alx-higher_level_programming/blob/main/0x0B-python-input_output/1-write_file.py): Python function that writes a string to a text file (UTF8).
   - Returns the number of characters written.
 - #### 2. Append to a file
-  - [2-append_write.py](https://github.com/iChigozirim/alx-higher_level_programming/blob/main/0x0B-python-input_output/2-append_write.py): Python function that appends a string at the end of a text file (UTF8).
+  - [2-append_write.py](https://github.com/iChigozirim/alx-higher_level_programming/0x0B-python-input_output/2-append_write.py): Python function that appends a string at the end of a text file (UTF8).
   - Returns the number of characters added.
