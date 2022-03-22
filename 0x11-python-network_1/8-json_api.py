@@ -7,9 +7,10 @@ import requests
 
 
 if __name__ == "__main__":
-    #len(sys.argv) < 2 ? letter = "": letter = sys.argv[1]
-    if len(sys.argv) < 2: letter = ""
-    else: letter = sys.argv[1]
+    if len(sys.argv) < 2:
+        letter = ""
+    else:
+        letter = sys.argv[1]
 
     r = requests.post("http://0.0.0.0:5000/search_user", data={'q': letter})
     try:
