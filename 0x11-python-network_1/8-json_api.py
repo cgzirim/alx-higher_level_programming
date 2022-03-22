@@ -5,10 +5,11 @@ letter as a parameter.
 import sys
 import requests
 
-if __name__ == "__main__":
-    len(sys.argv) < 2 ? value = "" : value = sys.argv[1]
 
-    r = requests.post("http://0.0.0.0:5000/search_user", data={'q':value})
+if __name__ == "__main__":
+    len(sys.argv) < 2 ? value = "": value = sys.argv[1]
+
+    r = requests.post("http://0.0.0.0:5000/search_user", data={'q': value})
     try:
         if len(r.json()) == 0:
             print('No result')
