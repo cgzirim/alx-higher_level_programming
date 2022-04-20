@@ -1,3 +1,3 @@
 $(function (){
-    $(this).css('color', 'red');
+    $('header').css('color', 'red');
 });
