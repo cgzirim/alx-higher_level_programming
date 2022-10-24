@@ -1,5 +1,4 @@
-# Higher level programming
-Python | JavaScript | Databases | Unittests | HTTP
+# Higher-level programming - Python, Databases & JavaScript
 
 
 The programs in this repository were written for the higher-level programming track at ALX. In the course of creating these programs I learned to program in Python and JavaScript, and write SQL querries with MySQL. 
